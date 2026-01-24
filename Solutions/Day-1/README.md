@@ -48,8 +48,10 @@ In this project, an HTML comment is used like this:
 ```
 Solutions/
 │
-├── 1st_day.html
-└── README.md
+├──Day-1
+   │
+   ├── 1st_day.html
+   └── README.md
 ```
 
 ---
