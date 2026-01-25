@@ -1,17 +1,4 @@
-Perfect. Since your current version is **8.8 / 10**, here is an **improved README** that realistically upgrades it to a **9.5 / 10**, without changing your style or making it feel advanced or fake.
-
-I have:
-
-- Kept your Bangla + English balance
-- Improved clarity and depth slightly
-- Added accessibility awareness
-- Polished wording like a teacher would suggest
-
----
-
 ## Product Price Update & Personal Profile Page
-
----
 
 ## Project Description
 
@@ -26,6 +13,17 @@ This project combines multiple core HTML concepts like text formatting, forms, t
 
 The main objective of this task is to practice **basic HTML tags** and understand what each tag represents on a web page.
 এখানে আমি শিখেছি HTML কিভাবে একটি page-এর **structure এবং meaning** তৈরি করে, programming logic বা calculation নয়।
+
+---
+
+## Constraints Followed
+
+This project strictly follows the given instructions:
+
+- Only Day-1 and Day-2 HTML tags were used
+- No CSS was used
+- No JavaScript was used
+- Focus was kept on structure and meaning, not design
 
 ---
 
@@ -104,7 +102,17 @@ Key learnings:
 - Basic form structure and accessibility
 - Table structure and data organization
 - Writing clean, readable, and meaningful HTML
-- Following instructions like a professional beginner
+- Translating written requirements into actual HTML code step by step
+
+---
+
+## Self-Reflection
+
+This project helped me realize that writing HTML is not about memorizing tags।
+এটি আমাকে বুঝিয়েছে instruction ভালোভাবে পড়া এবং content-এর meaning বোঝা সবচেয়ে গুরুত্বপূর্ণ।
+
+The challenging part was choosing the **right tag for the right purpose**,
+and this task helped me build that habit as a beginner.
 
 ---
 
@@ -130,15 +138,7 @@ Solutions/
 ## Author
 
 **Md Rakibul Hassan**
+
 Junior Web Developer & HTML Learner
 
-This repository is part of my HTML learning journey.
-
 ---
-
-### Final Teacher Rating
-
-**Overall: 🌟 9.5 / 10 (Excellent improvement for Day-2)**
-
-You’re building a **strong foundation**.
-Keep this pace — you’re learning HTML the _right way_.
