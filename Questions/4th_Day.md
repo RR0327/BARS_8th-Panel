@@ -2,53 +2,56 @@
 
 ## Task Title
 
-Styled Profile & Product Card Page
+Styled Profile and Product Card Page
 
 ---
 
 ## Objective
 
-Apply your **basic CSS knowledge** to style an HTML page using:
+The objective of this task is to apply foundational CSS knowledge and understand how CSS styles and controls HTML elements.
 
-- Proper CSS syntax
+By completing this task, students will practice:
+
+- CSS syntax
 - Selectors (element, class, id, universal)
-- Colors
-- Background
-- Border
-- Margin & Padding
-- Height & Width
-- Box Model
+- Internal and inline CSS
+- CSS comments
+- Common CSS errors
+- Colors (named, hex, RGB, HSL)
+- Background properties
+- Border properties
+- Margin and padding
+- Height and width
+- The CSS Box Model
 
-Focus on **understanding how styling works**, not advanced design.
+The focus is on understanding structure, behavior, and correctness rather than advanced design.
 
 ---
 
-## Project Description
+# Project Overview
 
-You will create a **simple webpage** that contains:
+Create a simple webpage that contains:
 
 - A profile section
 - A product card section
-- A styled form
-- Proper spacing using margin and padding
-- Demonstration of the box model
+- A basic form
+- Clear spacing using margin and padding
+- A visible demonstration of the Box Model
 
-You may use your previous HTML knowledge from Day-1, Day-2, and Day-3.
-
----
-
-## Task Requirements
+Use internal CSS inside the `<style>` tag.
 
 ---
 
-### 1. HTML Boilerplate (Required)
+# Requirements
+
+---
+
+## 1. HTML Boilerplate (Mandatory)
 
 Your file must include:
 
 - `<!DOCTYPE html>`
-
 - `<html>`
-
 - `<head>`
   - `<meta charset="UTF-8">`
   - `<title>`
@@ -56,38 +59,54 @@ Your file must include:
 
 - `<body>`
 
-You may also use **inline CSS** on at least one element.
+You must also use inline CSS on at least one HTML element.
 
 ---
 
-## 2. Universal Styling
+## 2. CSS Syntax
 
-Use the **universal selector (`*`)** to:
+Follow proper CSS syntax:
 
-- Remove default margin
-- Remove default padding
+```
+selector {
+  property: value;
+}
+```
 
-Example idea:
-
-- Reset all elements before styling
+- End each declaration with a semicolon.
+- Use correct property names.
+- Always include units where required (e.g., px).
 
 ---
 
-## 3. Profile Section (ID Selector Practice)
+## 3. Selectors
 
-Create a section with:
+Your project must demonstrate all of the following selectors:
+
+- Element selector (example: `p { }`)
+- Class selector (example: `.card { }`)
+- ID selector (example: `#profile { }`)
+- Universal selector (example: `* { }`)
+
+Use the universal selector to remove default margin and padding.
+
+---
+
+## 4. Profile Section (ID Selector Practice)
+
+Create a section:
+
+```
+<section id="profile">
+```
+
+Inside it include:
 
 - One heading
 - One paragraph
 - One image
 
-Assign it:
-
-```
-id="profile"
-```
-
-Style using `#profile`:
+Style `#profile` using:
 
 - Background color
 - Padding
@@ -95,63 +114,65 @@ Style using `#profile`:
 - Width
 - Margin
 
-This section must clearly show the **box model**.
+This section must clearly demonstrate the full Box Model.
 
 ---
 
-## 4. Product Card Section (Class Selector Practice)
+## 5. Product Cards (Class Selector Practice)
 
-Create **two product cards** using:
+Create two product cards using:
 
 ```
-class="card"
+<div class="card">
 ```
 
-Each card must contain:
+Each card must include:
 
 - A heading
-- A short paragraph
-- A price (old and new)
+- A short description
+- Old and new price
 
-Style using `.card`:
+Style `.card` using:
 
-- Border
-- Border radius
+- Border (width, style, color)
+- Border-radius
 - Padding
 - Margin
 - Background color
 - Fixed width
 
+This demonstrates reusable styling using class selectors.
+
 ---
 
-## 5. Color Practice
+## 6. Color Practice
 
-Use at least:
+Use all four types of color values:
 
-- One named color
-- One hex color
-- One RGB color
-- One HSL color
+- Named color
+- Hex value
+- RGB value
+- HSL value
 
 Apply them to different elements.
 
 ---
 
-## 6. Background Practice
+## 7. Background Properties
 
-Use:
+Demonstrate:
 
 - `background-color`
 - `background-image`
 - `background-repeat`
 - `background-position`
-- One shorthand `background` property
+- Shorthand `background` property
 
 At least one section must contain a background image.
 
 ---
 
-## 7. Border Practice
+## 8. Border Properties
 
 Demonstrate:
 
@@ -163,18 +184,18 @@ Demonstrate:
 
 ---
 
-## 8. Margin and Padding Demonstration
+## 9. Margin and Padding
 
-Clearly show:
+Clearly demonstrate the difference between:
 
-- Margin = outside spacing
-- Padding = inside spacing
+- Margin (space outside the border)
+- Padding (space inside the border)
 
-Use comments in CSS explaining which is which.
+Explain both using CSS comments.
 
 ---
 
-## 9. Height and Width
+## 10. Height and Width
 
 Use:
 
@@ -183,100 +204,75 @@ Use:
 - `min-width`
 - `max-width`
 
-Explain one of them using a CSS comment.
+Explain at least one of these properties using a CSS comment.
 
 ---
 
-## 10. Box Model Explanation (Very Important)
+## 11. Box Model Explanation
 
-Inside your CSS, add a comment explaining:
+Inside your CSS, include a comment explaining:
 
 ```
-Content
-Padding
-Border
-Margin
+Box Model Layers:
+1. Content
+2. Padding
+3. Border
+4. Margin
 ```
 
-You must clearly demonstrate all four layers on one element.
-
----
-
-## 11. Internal and Inline CSS
-
-- Use **Internal CSS** inside `<style>`
-- Use **Inline CSS** on at least one element
-- Explain via comment why inline is not recommended for large projects
+At least one element must visually demonstrate all four layers.
 
 ---
 
 ## 12. CSS Comments
 
-Add at least:
+Include:
 
-- 5 CSS comments
-- 1 comment explaining common mistake prevention
+- At least five meaningful CSS comments
+- At least one comment explaining a common CSS mistake
 
-Example idea:
+Example:
 
-- Comment about missing semicolon
-- Comment about unit usage
-
----
-
-## 13. Common Error Awareness
-
-Intentionally write one commented-out wrong example like:
-
-```css
-/* Wrong: width: 300;  Missing unit */
+```
+/* Wrong: width: 300; Missing unit (px) */
 ```
 
-This shows understanding of common errors.
+---
+
+## 13. Common CSS Errors Awareness
+
+Demonstrate understanding of common mistakes such as:
+
+- Missing semicolon
+- Missing unit
+- Typo in property name
+- Incorrect selector usage
+
+At least one incorrect example must be written and commented out.
 
 ---
 
-## Rules
+# Rules
 
-- Use Internal CSS only (No external file required)
-- No advanced CSS (no flexbox, no grid)
-- No JavaScript required
-- Keep layout simple
-- Focus on understanding the Box Model
-
----
-
-## Thinking Hint
-
-Before writing CSS, ask:
-
-- Which selector is best here?
-- Is this style reusable?
-- Should this be an id or a class?
-- Where does margin belong?
-- Where does padding belong?
+- Use internal CSS only
+- Do not use an external CSS file
+- Do not use Flexbox or Grid
+- Do not use JavaScript
+- Keep the layout simple
+- Focus on demonstrating core CSS concepts
 
 ---
 
-## Submission Instruction
+# Learning Outcome
 
-When finished:
+After completing this task, students will be able to:
 
-1. Upload your project to GitHub
-2. Keep HTML and CSS in the same file (internal CSS)
-3. Send the **GitHub repository link**
-4. Do NOT send GitHub Live link
-
----
-
-## Goal of Day-4
-
-If you complete this correctly, you will:
-
-- Understand CSS syntax properly
-- Know the difference between id and class
-- Understand the box model deeply
-- Avoid common beginner CSS mistakes
-- Control spacing confidently
+- Write correct CSS syntax
+- Use different types of selectors properly
+- Apply multiple color formats
+- Use background and border properties correctly
+- Understand and demonstrate the Box Model
+- Distinguish clearly between margin and padding
+- Avoid common beginner CSS errors
 
 ---
