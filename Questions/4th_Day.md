@@ -1,27 +1,3 @@
-Perfect 👌
-Now that you’ve learned **CSS Introduction → Box Model**, Day-4 should test:
-
-- CSS syntax understanding
-- Selectors (element, class, id, universal)
-- Internal & Inline CSS
-- Colors
-- Background
-- Border
-- Margin & Padding
-- Height & Width
-- Box Model
-- Common mistakes awareness
-
-Below is your structured **Day-4 challenge file content**.
-
-You can save this as:
-
-```
-4th_Day.md
-```
-
----
-
 # Day-4 CSS Practice Task
 
 ## Task Title
