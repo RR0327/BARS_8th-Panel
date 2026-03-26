@@ -62,7 +62,7 @@ You are hired to create a promotional web page for your favorite movie. The page
 1. **Strictly Allowed Concepts:** You may *only* use HTML tags and CSS properties covered in the Day 1 to Day 6 syllabus. 
 2. **No External Frameworks:** Do not use Bootstrap, Tailwind, or external CSS files. All styling must be written by you in the `<style>` tag.
 3. **No Advanced Layouts:** Do not use CSS Grid or Flexbox, as they have not been covered yet. Rely on `display` properties (block, inline, inline-block) and the Box Model for layout.
-   * **The Catch:** If you choose to use these advanced tools, you must be prepared to confidently explain to your instructor exactly how your code works. No blind copy-pasting allowed! If you use the extra tech, be ready to teach us how you did it. We love seeing students push their limits!
+   * **The Catch:** If you choose to use these advanced tools, you must be prepared to confidently explain to your instructor exactly how your code works. No blind copy-pasting allowed! If you use the extra tech, be ready to teach us how you did it. We love seeing learners push their limits!
 4. **Commenting:** Include HTML and CSS comments in your code explaining what specific sections do.
 
 ---
